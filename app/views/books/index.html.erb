@@ -1,0 +1,8 @@
+<h1>See list of book</h1>
+<% @books.each do |book| %>
+  <ul>
+    <li><%= book.title %></li>
+    <li><%= book.author %></li>
+    <li><%= book.already_read %></li>
+  </ul>
+<% end %>
